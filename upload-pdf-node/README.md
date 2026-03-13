@@ -2,8 +2,8 @@
 
 Este proyecto usa dos contenedores:
 
-- `backend`: API de Node/Express en el puerto `3001`
-- `frontend`: Vite en modo local en el puerto `5173`
+- `backend`: API de Node/Express
+- `frontend`: Vite en modo local
 
 ## Archivos
 
@@ -22,10 +22,6 @@ Este proyecto usa dos contenedores:
 cd upload-pdf-node
 docker compose up --build
 ```
-
-Frontend: `http://localhost:5173`
-
-Backend: `http://localhost:3001`
 
 ## Desarrollo local sin Docker
 

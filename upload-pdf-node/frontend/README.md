@@ -41,10 +41,6 @@ El frontend usa `import.meta.env.VITE_API_URL`.
 
 En desarrollo local Vite carga automaticamente `frontend/.env.development`:
 
-```env
-VITE_API_URL=http://localhost:3001/api/v1/file
-```
-
 Tambien tienes `frontend/.env.example` como referencia por si alguien clona el repo y quiere crear su propia configuracion local.
 
 ## Ejecutar con Docker
@@ -54,11 +50,6 @@ Desde la carpeta `upload-pdf-node`:
 ```bash
 docker compose up --build
 ```
-
-Servicios disponibles:
-
-- Frontend: `http://localhost:5173`
-- Backend: `http://localhost:3001`
 
 ## Ejecutar sin Docker
 
@@ -90,5 +81,5 @@ pnpm dev
 
 ## Notas
 
-- El backend tiene CORS habilitado, por eso el frontend puede llamar directamente a `localhost:3001`.
+- El backend tiene CORS habilitado, por eso el frontend puede llamar directamente a la url.
 - Este setup esta pensado para local y pruebas.
